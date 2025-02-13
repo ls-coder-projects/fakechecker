@@ -1,0 +1,29 @@
+start_command:
+  welcome_text: testWelcome
+
+info_command:
+  info_text: testInfo
+
+
+fact_check:
+  no_claims: "Нет утверждений в тексте"
+  claims_found_single: "Мы проанализировали отправленный текст и извлекли следующее ключевое утверждение:\n\n"
+  claims_found_multiple: "Мы проанализировали отправленный текст и извлекли следующие ключевые утверждения:\n\n"
+  checking_continue: "\nПродолжаем проверку..."
+  results_header: "Результаты проверки утверждений:"
+  unknown_source: "Неизвестный источник"
+  verdict_label: "<b>Вердикт:</b>"
+  source_label: "<b>Источник:</b>"
+  conclusion_label: "<b>Заключение:</b>"
+  sources_header: "<b>Источники:</b>"
+  no_info: "⚠️ Нет достоверной информации."
+
+
+#другие команды
+other_commands:
+  default_response: "testOtherCommands"
+
+errors:
+  extraction_error: "Извините, произошла ошибка при анализе текста. Пожалуйста, попробуйте позже."
+  telegram_error: "Извините, произошла ошибка при отправке сообщения. Пожалуйста, попробуйте позже."
+  unexpected_error: "Извините, произошла непредвиденная ошибка. Пожалуйста, попробуйте позже."
